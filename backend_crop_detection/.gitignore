@@ -12,10 +12,11 @@ __pycache__/
 db.sqlite3
 
 # Virtual environments
-env/
+/env
 venv/
 ENV/
 .venv/
+backend_crop_detection/.env
 
 # Django specific
 *.pot
