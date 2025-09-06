@@ -1,0 +1,45 @@
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.log
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Django specific
+*.pot
+*.mo
+*.pyc
+media/
+staticfiles/
+*.pid
+
+# IDE / Editors
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Test / Coverage
+coverage/
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+crop_detection/Models/*.keras
+
+backend_crop_detection/crop_detection/Models/*.keras
